@@ -1,0 +1,19 @@
+{
+  "name": "playlist-api",
+  "version": "1.0.0",
+  "description": "A simple vanilla Node.js RESTful API.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Narciso Lobo",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
